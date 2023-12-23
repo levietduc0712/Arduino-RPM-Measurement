@@ -1,0 +1,36 @@
+# Arduino RPM Measurement with E6B2-CWZ5B Encoder
+
+## Overview
+This Arduino project enables precise measurement of motor speed in revolutions per minute (RPM) using the E6B2-CWZ5B rotary encoder and the Arduino Mega 2560. The E6B2-CWZ5B encoder provides accurate and reliable feedback on the motor shaft's rotational speed, making it ideal for applications where RPM monitoring is crucial.
+
+## Components Used
+- Arduino Mega 2560
+- E6B2-CWZ5B Rotary Encoder
+- Connecting wires
+
+## Features
+1. **High Precision RPM Measurement:**
+   - The E6B2-CWZ5B encoder is employed to measure the motor's RPM with high precision, providing accurate feedback on the rotational speed.
+
+2. **Arduino Mega 2560 Compatibility:**
+   - The code is designed to work seamlessly with the Arduino Mega 2560, taking advantage of its ample processing power and multiple digital pins.
+
+3. **Easy Integration:**
+   - The project is designed for easy integration into various motor control applications, such as robotics, automation, or any system where monitoring and control of RPM are essential.
+
+4. **Real-time Monitoring:**
+   - The Arduino code reads the encoder pulses in real-time, calculates the RPM, and displays the result, offering instant feedback on the motor's rotational speed.
+
+5. **Versatile Use Cases:**
+   - Suitable for a wide range of motors and applications, the code can be adapted to different motor types and configurations.
+
+## Wiring Configuration
+1. Connect the A and B channel outputs of the E6B2-CWZ5B encoder to digital pins on the Arduino Mega 2560.
+2. Ensure the encoder's power supply and ground are connected appropriately.
+
+## Usage
+1. Upload the provided Arduino code to your Arduino Mega 2560 using the Arduino IDE.
+2. Connect the E6B2-CWZ5B encoder to the designated digital pins on the Mega 2560, following the specified wiring configuration.
+3. Power up the system and monitor the Arduino Serial Monitor to view real-time RPM data.
+
+Feel free to customize the code to suit your specific motor and application requirements. Whether you are building a precision control system or simply monitoring motor performance, this RPM measurement code provides a solid foundation for your Arduino-based projects.
